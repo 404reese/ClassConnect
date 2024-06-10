@@ -17,3 +17,9 @@
   font-weight: bold;
   font-family: 'Kaisei Tokumin', sans-serif;
 }
+@media only screen and (max-width: 768px) {
+  .logo {
+    font-size: 30px;
+  }
+   
+ }

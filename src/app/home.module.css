@@ -3,7 +3,7 @@
 .container {
   display: flex;
   gap: 100px;
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 .textContainer {
@@ -95,4 +95,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .teamContainer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }

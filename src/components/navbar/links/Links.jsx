@@ -12,19 +12,19 @@ const links = [
     path: "/",
   },
   {
-    title: "About Us",
-    path: "/about",
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-  },
-  {
     title: "Notes",
     path: "/notes",
   },
   {
+    title: "PYQ",
+    path: "/pyq",
+  },
+  {
     title: "Resources",
+    path: "/resources",
+  },
+  {
+    title: "About Us",
     path: "/about",
   },
 ];
