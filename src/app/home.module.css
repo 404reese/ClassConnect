@@ -51,8 +51,7 @@
 .imgContainer {
   flex: 1;
   position: relative;
-  width: 456px;
-  height: 456px;
+
 }
 
 @media (max-width: 1024px) {

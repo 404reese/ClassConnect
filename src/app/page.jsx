@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/herogg.png" alt="" fill className={styles.heroImg} />
+          <Image src="/herovec.svg" alt="" fill className={styles.heroImg} />
         </div>
       </div>
       <div className={styles.heroCont}>
