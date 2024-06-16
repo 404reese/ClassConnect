@@ -33,12 +33,12 @@ const Buttons = () => {
           <Image src="/announcement.png" alt="Events Icon" width={40} height={40} />
           <span>Announcement</span>
         </button></a>
-        <a href="/contribute" target="_self">
-        <button className={styles.button}>
-          <Image src="/upload.png" alt="More Icon" width={40} height={40} />
-          <span>Contribute</span>
-        </button>
-      </a>
+        <a href="/fileupload" target="_blank" className={styles.button}>
+  <Image src="/upload.png" alt="Upload Icon" width={40} height={40} />
+  <span>Contribute</span>
+</a>
+
+
       </div>
 </div>
   );
