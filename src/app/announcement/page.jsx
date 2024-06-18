@@ -32,9 +32,9 @@ const Announcement = () => {
   return (
     <div className="announcement-page">
       <div className="announcement-header">
-        <h1>Announcements</h1>
+      <h1 className="middleTitle">Notes</h1>
       </div>
-      <ul className= {styles.announcement-list}>
+      <ul className={styles.announcementList}>
         {announcements.reverse().map((announcement) => (
           <li key={announcement.id}>
             <h2>{announcement.title}</h2>
