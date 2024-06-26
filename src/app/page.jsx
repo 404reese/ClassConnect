@@ -114,7 +114,7 @@ const Home = () => {
         fontSize: '18px',
         color: '#fff', /* medium dark text color */
         marginBottom: '20px'
-      }}>Friend of riddhesh</p>
+      }}>Project Lead</p>
       <p style={{
         textAlign: 'center',
         fontSize: '18px',

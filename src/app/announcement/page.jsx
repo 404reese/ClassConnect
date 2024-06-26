@@ -31,21 +31,21 @@ const Announcement = () => {
 
   return (
     <div className="announcement-page">
-      <div className="announcement-header">
-      <h1 className="middleTitle">Notes</h1>
-      </div>
-      <ul className={styles.announcementList}>
-        {announcements.reverse().map((announcement) => (
-          <li key={announcement.id}>
-            <h2>{announcement.title}</h2>
-            <p>{announcement.content}</p>
-            <p>
-              <small>Posted on {announcement.date}</small>
-            </p>
-          </li>
-        ))}
-      </ul>
-    </div>
+  <div className="announcement-header">
+    <h1 style={{ fontFamily:'Kaisei Tokumin', textAlign:'center'  }}>Announcements</h1>
+  </div>
+  <ul className={styles.announcementList}>
+    {announcements.reverse().map((announcement) => (
+      <li key={announcement.id} style={{ border: '1px solid #ddd', padding: '10px', marginBottom: '20px', backgroundColor: '#1C1C1F', borderRadius:'10px' }}>
+        <h2 style={{ fontSize: '18px', fontWeight: 'bold' }}>{announcement.title}</h2>
+        <p style={{ fontSize: '16px' }}>{announcement.content}</p>
+        <p style={{ fontSize: '14px', color: '#666' }}>
+          <small>Posted on {announcement.date}</small>
+        </p>
+      </li>
+    ))}
+  </ul>
+</div>
   );
 };
 
